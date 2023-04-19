@@ -231,7 +231,7 @@ clear all
 wt = load('.\Sim_data\new_results\*.mat');
 mutant = load('.\Sim_data\new_results\*.mat');
 
-save_folder =  '.\Figures\';
+save_folder =  '.\NewFigures\';
 CaExtracellular = [0.4 0.75 1.5 3 6];
 
 %% (Figure 2 F)
