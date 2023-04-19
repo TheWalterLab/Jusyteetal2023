@@ -1,3 +1,5 @@
+%% This script generates plots that were used for Figure 2 and Figure S1 in the Jusyte et al., 2023 Cell Reports paper   
+
 %% Load files
 % 
 clear all
@@ -6,8 +8,8 @@ close all
 load('.\Exp_data\full_exp_data.mat');
 
 %load simulation results
-wt = load('.\Sim_data\new_results\Results_CaMax190_model47parfree_14.047_4.0861_6.3755e-31_92.1614_265.0334_1.9e-07_1.3356_1_St.mat');
-mutant = load('.\Sim_data\new_results\Results_CaMax190_model47parfree_14.047_4.0861_6.3755e-31_92.1614_265.0334_1.9e-07_1.3356_0_St.mat');
+wt = load('.\Sim_data\new_results\*.mat');
+mutant = load('.\Sim_data\new_results\*.mat');
 
 save_folder =  '.\NewFigures\';
 CaExtracellular = [0.4 0.75 1.5 3 6];
@@ -226,8 +228,8 @@ saveas(gcf,[save_folder ,date ,'primed_vesicles_high6'],'epsc')
 clear all
 %load simulation results
 
-wt = load('.\Sim_data\new_results\Results_CaMax190_model47parfree_14.047_4.0861_6.3755e-31_92.1614_265.0334_1.9e-07_1.3356_1_St.mat');
-mutant = load('.\Sim_data\new_results\Results_CaMax190_model47parfree_14.047_4.0861_6.3755e-31_92.1614_265.0334_1.9e-07_1.3356_0_St.mat');
+wt = load('.\Sim_data\new_results\*.mat');
+mutant = load('.\Sim_data\new_results\*.mat');
 
 save_folder =  '.\Figures\';
 CaExtracellular = [0.4 0.75 1.5 3 6];
