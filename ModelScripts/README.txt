@@ -8,7 +8,7 @@ About the script:
 
 Prior to simulations:
  
- - Before simulations the calcium calculator CalC needs to be installed in the same folder as the scripts (the outermost folder). The program as well as a manual on installation and usage can be found here: https://web.njit.edu/~matveev/calc.html. After installation, remember to set permissions to allow execution of CalC. Also make sure that the path to the CalC program is correct in the bottom of the RunCalC_det.m script. Otherwise, no calcium files will be created, and the Matlab script will return an error as it cannot open the calcium file. CalC version 6.8.6 for Windows was used in the simulations presented in the paper. This version of the program (calc_686.exe, with plug-ins: cygcc_s-she.dll, cygstdc++-6.dll, cygwin1.dll) can be in the folder containing the scripts and can be used without further installation. 
+ - Before simulations the calcium calculator CalC needs to be installed in the same folder as the scripts (the outermost folder). The program as well as a manual on installation and usage can be found here: https://web.njit.edu/~matveev/calc.html. After installation, remember to set permissions to allow execution of CalC. Also make sure that the path to the CalC program is correct in the bottom of the RunCalC_det.m script. Otherwise, no calcium files will be created, and the Matlab script will return an error as it cannot open the calcium file. CalC version 6.8.6 for Windows was used in the simulations presented in the paper. This version of the program (calc_686.exe, with plug-ins: cygcc_s-she.dll, cygstdc++-6.dll, cygwin1.dll) is in this folder and can be used without further installation. 
  
  - As the scripts are sorted in folders (Common, Deterministic, Stochastic, etc.). Remember to add all folders to the search path.
  
@@ -28,6 +28,6 @@ Other relevant files and functions:
 
  - new_experiments_mutant_and_wt_peaks12_ppr.mat and full_exp_data.mat: files that contain the experimental data used for the fitting and generating the figures.
 
- - figures.m: script used for generating figures 2 and s1.
+ - figures.m: script used for generating Figures 2 and Figure S1.
 
  - new_result: folder containing the simulation results used for generating the figures.
