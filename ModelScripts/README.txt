@@ -28,6 +28,6 @@ Other relevant files and functions:
 
  - new_experiments_mutant_and_wt_peaks12_ppr.mat and full_exp_data.mat: files that contain the experimental data used for the fitting and generating the figures.
 
- - figures.m: script used for generating Figures 2 and Figure S1.
+ - figures.m: script used for generating Figures 2 and Figure S1. 
 
- - new_result: folder containing the simulation results used for generating the figures.
+ - new_result: folder containing the simulation results used for generating the figures. Input simulation result file names in lines 11, 12, 231 and 232.
