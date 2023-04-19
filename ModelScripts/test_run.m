@@ -18,7 +18,7 @@ unprim_mutant = 0; %0 for Ca dependent unpriming, 1 for constant low unpriming, 
 
 par_free = [Q_max Ca_prim_type kD_par_free prim_rate_const unprim_rate_const CaMax_rest num_ves_factor unprim_mutant];
 
-stoch_on_off = 0; %0 for deterministic simulation, 1 for stochastic, 2 for both
+stoch_on_off = 1; %0 for deterministic simulation, 1 for stochastic, 2 for both
 rand_ves_on_off = 1; %This defines the vesicle placement as described in determ_vesicle_distances.m
 CalC_on_off = 1; %0: No CalC simulation (if Ca files are already generated), >0 for CalC simulation. If == 1 all older calcium files are deleted
 CaExtracellular = [0.4 0.75 1.5 3 6]; %Extracellular calcium concentrations (mM) to simulate
