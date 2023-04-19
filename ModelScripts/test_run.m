@@ -27,5 +27,5 @@ save_calc_loc = 1; %%Defines the location of calcium files (to be able to run mo
 pVr2_hack = 0; %Set this to zero. Only used for estimation of pVr2 (by putting new vesicles into the system right before second stimulation)
 
 [par_init, savefilename] = parameter_choices(par_free, model_type, 0, rand_ves_on_off); %Defines the parameter vector and result filename to be inputted in the following function call. 
-% savefilename = ['results_' num2str(unprim_mutant)]; %Sometimes Matlab cannot write to a file if the name of the file is too long. Uncomment this line to resolve the issue.
+% savefilename = ['results_' num2str(unprim_mutant)]; %Sometimes Matlab cannot write to a file if the name of the file is too long. Uncomment this line to resolve this issue.
 testing_the_system(stoch_on_off, rand_ves_on_off, CalC_on_off, par_init, CaExtracellular, save_data, savefilename, save_calc_loc, pVr2_hack)
